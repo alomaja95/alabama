@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. Fonts
+2. Body and some general stuff
+3. Header
+4. Menu
+5. Home
+6. Search
+7. listing
+8. Footer
+
+
+******************************/
+
+/***********
+1. Fonts
+***********/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900');
+
+
+
+/*********************************
+3. Header
+*********************************/
+
+
+/*********************************
+4. Menu
+*********************************/
+
+
+
+/*********************************
+5. Home
+*********************************/
+
+.home1
+{
+	height: 947px;
+	max-height: 100vh;
+}
+.home1_slider_container
+{
+	width: 100%;
+	height: 100%;
+}
+.home1_container
+{
+	position: absolute;
+	left: 0;
+	top: 37.7%;
+	width: 100%;
+}
+.home1_content
+{
+	width: 423px;
+	background: #1e1332;
+	padding-left: 47px;
+	padding-top: 41px;
+	padding-bottom: 48px;
+	padding-right: 50px;
+}
+.home1_title h1
+{
+	font-size: 30px;
+	font-weight: 500;
+	color: #ffffff;
+}
+.home1_price_tag
+{
+	display: inline-block;
+	height: 30px;
+	background: #adc867;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #ffffff;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-top: 10px;
+	margin-left: 4px;
+}
+.home_slider_nav
+{
+	position: absolute;
+	top: 52%;
+	right: 63px;
+	z-index: 1;
+	width: 57px;
+	height: 57px;
+	border-radius: 50%;
+	background: #adc867;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.home_slider_nav:hover
+{
+	background: #1e1332;
+}
+.home_slider_nav i
+{
+	line-height: 57px;
+	font-size: 24px;
+	color: #ffffff;
+}
+.slide1
+{
+	height: 100%;
+}
+
+/*********************************
+6. Search
+*********************************/
+
+/*********************************
+11. Footer
+*********************************/
+
